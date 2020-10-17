@@ -9,7 +9,7 @@ namespace CosmosGettingStartedTutorial
     class Program
     {
         private static readonly string EndpointUri = "https://singhwongfirst.documents.azure.com:443/";
-        private static readonly string PrimarykEY = "sxuhAlszswsaiJZx6I3lqdlcddOW33BLtrX90wSY7cp2bowidtLmjYgja18v4v3D4XgiKmlUIlwKdbMiI3j2VQ==";
+        private static readonly string PrimaryKey = "your azure cosmos DB account master primary key";
         private CosmosClient cosmosClient;
         private Database database;
         private Container container;
@@ -40,7 +40,7 @@ namespace CosmosGettingStartedTutorial
         }
         public async Task GetStartedDemoAsync()
         {
-            cosmosClient = new CosmosClient(EndpointUri,PrimarykEY);
+            cosmosClient = new CosmosClient(EndpointUri,PrimaryKey);
             await CreatedDatabaseAsync();
             await CreateContainerAsync();
             //await AddItemsToContainerAsync();
