@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{189C725F-0F3B-41F3-834B-9D74A92E0809}|Default">
+  <MonoDevelop.Ide.ItemProperties.CosmosGettingStartedTutorial PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CosmosGettingStartedTutorial/Program.cs">
+    <Files>
+      <File FileName="CosmosGettingStartedTutorial/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CosmosGettingStartedTutorial" expanded="True">
+            <Node name="CosmosGettingStartedTutorial" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
